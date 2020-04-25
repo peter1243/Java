@@ -1,0 +1,16 @@
+public class abs {
+    public static void main(String[] ags){
+        Abs n1=new Abs();
+        n1.setAbs(2);
+        System.out.println(n1.getAbs());
+    }
+}
+class Abs{
+    private int num;
+    public void setAbs(int num){
+        this.num=num*num;
+    }
+    public int getAbs(){
+        return this.num;
+    }
+}
